@@ -3,7 +3,7 @@ import { styles } from "./styles"
 
 function Button(props) {
     return (
-        <div style={styles.container}>
+        <div>
             <Link to={props.to} style={styles.link}>
                 {props.title}
             </Link>
