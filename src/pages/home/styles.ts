@@ -9,22 +9,22 @@ export const styles = {
     },
 
     hero: {
-        display: 'flex',
-        height:'100vh',
-        backgroundSize: 'cover',
+        display        : 'flex',
+        height         : '100vh',
+        backgroundSize : 'cover',
         backgroundImage: `url(${homeBanner})`,
     },
 
     mainPage: {
-        display: 'flex',
-        flexDirection: 'column',
-        maxWidth: '1200px',
-        width: '100%',
-        margin:'0 auto',
+        display       : 'flex',
+        flexDirection : 'column',
+        maxWidth      : '1200px',
+        width         : '100%',
+        margin        : '0 auto',
         justifyContent: 'center',
-        alignItems: 'center',
-        textAlign: 'center' ,
-        color: 'white' ,
+        alignItems    : 'center',
+        textAlign     : 'center',
+        color         : 'white',
     } as CSSProperties,
 
 };

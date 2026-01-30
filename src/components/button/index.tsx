@@ -1,13 +1,16 @@
 import { Link } from "react-router-dom";
 import { styles } from "./styles"
 
-function Button(props) {
+type ButtonProps = {
+    title: string;
+    to   : string;
+};
+
+function Button({ title, to }: ButtonProps) {
     return (
-        <div>
-            <Link to={props.to} style={styles.link}>
-                {props.title}
-            </Link>
-        </div>
+        <Link to={to} style={styles.link}>
+            {title}
+        </Link>
     );
 
 }
