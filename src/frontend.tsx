@@ -7,13 +7,19 @@
 
 import { createRoot } from "react-dom/client";
 import { StrictMode } from "react";
-import { App } from "./App";
-import Home from "./pages/home";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
+// Import des pages
+import Home from "./pages/home";
+import NotFound from "./pages/notFound";
+
+// Import des composants
+import { HeaderBar, Footer } from "./components";
+
 const router = createBrowserRouter([
-  { path:"/", element: <App/>},
-  { path:"/home", element: <Home/>}
+  { path:"/", element: <Home/>},
+  { path:"/home", element: <Home/>},
+  { path: "*", element: <NotFound /> },
 ]);
 
 const elem = document.getElementById("root")!;
