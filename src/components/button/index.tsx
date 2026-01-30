@@ -1,10 +1,13 @@
 import { Link } from "react-router-dom";
+import { styles } from "./styles"
 
 function Button(props) {
     return (
-        <Link to={props.to}>
-            <p>{props.title}</p>
-        </Link>
+        <div style={styles.container}>
+            <Link to={props.to} style={styles.link}>
+                {props.title}
+            </Link>
+        </div>
     );
 
 }
