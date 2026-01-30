@@ -8,6 +8,13 @@
 import { createRoot } from "react-dom/client";
 import { StrictMode } from "react";
 import { App } from "./App";
+import Home from "./pages/home";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+const router = createBrowserRouter([
+  { path:"/", element: <App/>},
+  { path:"/home", element: <Home/>}
+]);
 
 const elem = document.getElementById("root")!;
 const app = (
