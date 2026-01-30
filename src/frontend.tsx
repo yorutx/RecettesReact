@@ -17,9 +17,9 @@ const router = createBrowserRouter([
 ]);
 
 const elem = document.getElementById("root")!;
-const app = (
+const app = ( 
   <StrictMode>
-    <App />
+    <RouterProvider router={router}/>
   </StrictMode>
 );
 
