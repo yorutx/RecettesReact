@@ -11,15 +11,21 @@ function Home() {
 
     return (
         <>
-            <div>
+            {/* <div>
                 <p>This is Count: {count}</p>
                 <button onClick={handleClick}>Increment Count</button>
-            </div>
+            </div> */}
 
-            <h1>Recettes de Maju</h1>
-                
-            <HeaderBar/>
-
+            <section style={styles.hero}>
+                <div style={styles.mainPage}>
+                    <h1>Recettes de Maju</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur qui quisquam numquam reprehenderit. Doloribus omnis veniam, nesciunt quae aliquam cum exercitationem distinctio, autem, amet molestias voluptas recusandae quod alias! Necessitatibus?</p>
+                    <Button>Decouvre maintenant</Button>
+                    
+                </div>
+                    
+                <HeaderBar/>
+            </section>
             <div style={styles.cardContainer}></div>
 
             <Footer />
