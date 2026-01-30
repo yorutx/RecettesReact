@@ -1,4 +1,4 @@
-import { CSSProperties } from "react";
+import type { CSSProperties } from "react";
 import homeBanner from '../../assets/nappe-home.jpg';
 
 
@@ -6,14 +6,14 @@ export const styles = {
     cardContainer: {
         backgroundColor: '#fff',
         borderRadius: 8
-    } as CSSProperties,
+    },
 
     hero: {
         display: 'flex',
         height:'100vh',
         backgroundSize: 'cover',
         backgroundImage: `url(${homeBanner})`,
-    } as CSSProperties,
+    },
 
     mainPage: {
         display: 'flex',

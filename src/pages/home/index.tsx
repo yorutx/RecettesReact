@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
+//import React, { useState } from 'react';
 import { styles } from './styles';
 import { Button, HeaderBar, Footer } from '../../components';
 
 function Home() {
-    const [count, setCount] = useState(0);
+    // const [count, setCount] = useState(0);
 
-    function handleClick() {
-        setCount(count + 1);
-    }
+    // function handleClick() {
+    //     setCount(count + 1);
+    // }
 
     return (
         <>
@@ -16,6 +16,8 @@ function Home() {
                 <button onClick={handleClick}>Increment Count</button>
             </div> */}
 
+            <HeaderBar/>
+            
             <section style={styles.hero}>
                 <div style={styles.mainPage}>
                     <h1>Recettes de Maju</h1>
@@ -24,7 +26,6 @@ function Home() {
                     
                 </div>
                     
-                <HeaderBar/>
             </section>
             <div style={styles.cardContainer}></div>
 
