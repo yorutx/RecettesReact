@@ -1,6 +1,7 @@
 export const styles = {
     container: {
         backgroundColor: '#fff',
+        backgroundImage: "url('./src/assets/nappe-bleue.jpg')",
         justifyContent : 'space-between',
         display        : 'flex',
         alignItems     : 'center',
@@ -20,10 +21,28 @@ export const styles = {
     },
 
     link: {
-        color         : 'black',
-        textDecoration: 'none',
-        fontWeight    : 'bold',
-        fontSize      : '20px',
+        color          : 'black',
+        textDecoration : 'none',
+        fontWeight     : 'bold',
+        fontSize       : '20px',
+        
+        backgroundColor: 'white',
+        padding        : '10px 20px',
+        borderRadius   : 25,
+        boxShadow      : '0 2px 4px rgba(0,0,0,0.5)',
+    },
+
+    linkHovered: {
+        color          : 'black',
+        textDecoration : 'none',
+        fontWeight     : 'bold',
+        fontSize       : '20px',
+        
+        backgroundColor: 'white',
+        padding        : '10px 20px',
+        borderRadius   : 25,
+        boxShadow      : '0 2px 4px rgba(0,0,0,0.5)',
+        animation      : 'spin 2s linear infinite',
     },
     
 };
