@@ -1,13 +1,15 @@
-import { Button } from '../';
+import { Link } from 'react-router-dom';
+
+import { styles } from './styles';
 
 function HeaderBar() {
     return (
-        <div style={{ justifyContent: 'space-between', display: 'flex', alignItems: 'center'}}>
-            <p style={{ color: 'white', fontWeight: 'bold' }}>Site MAJU</p>
-            <div style={{ display: 'flex', gap: '10px' }}>
-                <Button title="Home" to="/home"/>
-                <Button title="Home" to="/"/>
-                <Button title="Not found" to="/caca"/>
+        <div style={styles.container}>
+            <p style={styles.siteTitle}>Site MAJU</p>
+            <div style={styles.containerTab}>
+                <Link to="/home" style={styles.link}>Home</Link>
+                <Link to="/recette1" style={styles.link}>Recette 1</Link>
+                <Link to="/caca" style={styles.link}>Not found</Link>
             </div>
         </div>
     );
