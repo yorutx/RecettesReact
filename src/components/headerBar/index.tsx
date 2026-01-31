@@ -6,7 +6,7 @@ function HeaderBar() {
             <p style={{ color: 'white', fontWeight: 'bold' }}>Site MAJU</p>
             <div style={{ display: 'flex', gap: '10px' }}>
                 <Button title="Home" to="/home"/>
-                <Button title="App" to="/"/>
+                <Button title="Home" to="/"/>
                 <Button title="Not found" to="/caca"/>
             </div>
         </div>

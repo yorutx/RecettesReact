@@ -4,12 +4,11 @@ import './index.css'
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import App from './App.tsx'
 import Home from "./pages/home";
 import NotFound from "./pages/notFound";
 
 const router = createBrowserRouter([
-  { path:"/", element: <App/>},
+  { path:"/", element: <Home/>},
   { path:"/home", element: <Home/>},
   { path: "*", element: <NotFound /> },
 ]);
