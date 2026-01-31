@@ -15,6 +15,10 @@ export const styles = {
         backgroundImage: `url(${homeBanner})`,
     },
 
+    antagonist: {
+        maxHeight : '3000px',
+    },
+
     mainPage: {
         display       : 'flex',
         flexDirection : 'column',
@@ -31,6 +35,10 @@ export const styles = {
         display : 'flex',
         flexDirection : 'column',
         margin : '0 auto',
-    } as CSSProperties
+        justifyContent : 'left',
+        alignItems : 'left',
+        textAlign : 'left',
+        color : 'black',
+    } as CSSProperties,
 
 };
