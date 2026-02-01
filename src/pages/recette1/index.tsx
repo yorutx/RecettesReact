@@ -1,6 +1,6 @@
 //import React, { useState } from 'react';
 import { styles } from './styles';
-import { Button, HeaderBar, Footer } from '../../components';
+import { Button } from '../../components';
 import mainImg from '../../assets/nappe-bleue.jpg';
 import { useState } from "react";
 
