@@ -18,10 +18,7 @@ function Recette1() {
     }
 
     return (
-        <>
-
-            <HeaderBar/>
-            
+        <>            
             <section style={styles.hero}>
                 <div style={styles.mainPage}>
                     <div style={{ backgroundColor: 'rgb(0, 0, 0, 0.5)', borderRadius: 50, padding: '20px', marginBottom: '20px',}}>
@@ -50,8 +47,6 @@ function Recette1() {
             </section>
 
             <div style={styles.cardContainer}></div>
-
-            <Footer />
         </>
     );
 

@@ -1,23 +1,11 @@
 //import React, { useState } from 'react';
 import { styles } from './styles';
-import { Button, HeaderBar, Footer } from '../../components';
+import { Button } from '../../components';
 
 function Home() {
-    // const [count, setCount] = useState(0);
-
-    // function handleClick() {
-    //     setCount(count + 1);
-    // }
 
     return (
-        <>
-            {/* <div>
-                <p>This is Count: {count}</p>
-                <button onClick={handleClick}>Increment Count</button>
-            </div> */}
-
-            <HeaderBar/>
-            
+        <>           
             <section style={styles.hero}>
                 <div style={styles.mainPage}>
                     <div style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)', borderRadius: 100, padding: '20px', marginBottom: '20px' }}>
@@ -28,8 +16,6 @@ function Home() {
                 </div>
             </section>
             <div style={styles.cardContainer}></div>
-
-            <Footer />
         </>
     );
 
