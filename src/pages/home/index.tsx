@@ -1,6 +1,7 @@
 //import React, { useState } from 'react';
 import { styles } from './styles';
-import { Button, Template } from '../../components';
+import { RecetteCard, Template } from '../../components';
+import mainImg from '../../assets/poulet-champi.webp';
 
 function Home() {
 
@@ -15,7 +16,13 @@ function Home() {
 
                     <div>
                         <h1>Decouvre des recettes</h1>
-                        <Button title="Recette 1" to="/recette1"/>
+                        <div>
+                            <RecetteCard titre="Poulet à la crème champignon" imageUrl={mainImg} toGo="/recette1"/>
+                            <RecetteCard titre="Poulet à la crème champignon" imageUrl={mainImg} toGo="/recette1"/>
+                            <RecetteCard titre="Poulet à la crème champignon" imageUrl={mainImg} toGo="/recette1"/>
+                            <RecetteCard titre="Poulet à la crème champignon" imageUrl={mainImg} toGo="/recette1"/>
+                            <RecetteCard titre="Poulet à la crème champignon" imageUrl={mainImg} toGo="/recette1"/>
+                        </div>
                     </div>
                 </div>
             </section>
