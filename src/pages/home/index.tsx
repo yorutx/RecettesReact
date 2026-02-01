@@ -12,7 +12,7 @@ function Home() {
                         <h1>Recettes de Maju</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur qui quisquam numquam reprehenderit. Doloribus omnis veniam, nesciunt quae aliquam cum exercitationem distinctio, autem, amet molestias voluptas recusandae quod alias! Necessitatibus?</p>
                     </div>
-                    <Button title="Decouvre maintenant" to="/home"/>
+                    <Button title="WORK IN PROGRESS" to="/home"/>
                 </div>
             </section>
             <div style={styles.cardContainer}></div>
