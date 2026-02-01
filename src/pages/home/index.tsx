@@ -1,13 +1,13 @@
 //import React, { useState } from 'react';
 import { styles } from './styles';
-import { Button } from '../../components';
+import { Button, Template } from '../../components';
 
 function Home() {
 
     return (
-        <>           
-            <section style={styles.hero}>
-                <div style={styles.mainPage}>
+        <Template>
+            <section>
+                <div>
                     <div>
                         <h1>Recettes de Maju</h1>
                         <p>Un site de cuisine personnel dont l'ingrédient principal est l'amour.</p>
@@ -20,7 +20,7 @@ function Home() {
                 </div>
             </section>
             <div style={styles.cardContainer}></div>
-        </>
+        </Template>
     );
 
 }
