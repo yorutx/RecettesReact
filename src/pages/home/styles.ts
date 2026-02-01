@@ -1,6 +1,4 @@
 import type { CSSProperties } from "react";
-import homeBanner from '../../assets/nappe-home.jpg';
-
 
 export const styles = {
     cardContainer: {
@@ -16,15 +14,12 @@ export const styles = {
     },
 
     mainPage: {
-        display       : 'flex',
-        flexDirection : 'column',
-        maxWidth      : '1200px',
-        width         : '100%',
-        margin        : '0 auto',
-        justifyContent: 'center',
-        alignItems    : 'center',
-        textAlign     : 'center',
-        color         : 'white',
+        display      : 'flex',
+        flexDirection: 'column',
+        maxWidth     : '1200px',
+        width        : '80%',
+        margin       : '0 auto',
+        color        : 'black',
     } as CSSProperties,
 
 };
