@@ -12,9 +12,9 @@ import { HeaderBar, Footer} from './components';
 
 const Layout = () => {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div>
       <HeaderBar />
-      <main className="flex-1">
+      <main>
         <Outlet />
       </main>
       <Footer />
