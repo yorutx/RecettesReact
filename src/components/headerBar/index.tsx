@@ -18,7 +18,9 @@ function HeaderBar() {
                     <Link to="/caca" style={hoverNotFound ? styles.link : styles.linkHovered} onMouseEnter={() => setHoverNotFound(false)} onMouseLeave={() => setHoverNotFound(true)}>Not found</Link>
                 </div>
             </div>
-            <p>WORK IN PROGRESS</p>
+            <div style={styles.banner}>
+                <p>WORK IN PROGRESS</p>
+            </div>
         </>
     );
 

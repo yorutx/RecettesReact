@@ -45,4 +45,13 @@ export const styles = {
         animation      : 'spin 2s linear infinite',
     },
     
+    banner: {
+        display        : 'flex',
+        justifyContent : 'center',
+        alignItems     : 'center',
+        backgroundColor: '#86fafc',
+        fontWeight     : 'bold',
+        fontSize       : '12px',
+        height         : '20px',
+    },
 };
