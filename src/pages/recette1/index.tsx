@@ -1,7 +1,5 @@
-//import React, { useState } from 'react';
 import { styles } from './styles';
-import { Button } from '../../components';
-import mainImg from '../../assets/nappe-bleue.jpg';
+import mainImg from '../../assets/poulet-champi.webp';
 import { useState } from "react";
 
 function Recette1() {
@@ -18,31 +16,34 @@ function Recette1() {
     }
 
     return (
-        <>            
-            <section style={styles.hero}>
-                <div style={styles.mainPage}>
-                    <div style={{ backgroundColor: 'rgb(0, 0, 0, 0.5)', borderRadius: 50, padding: '20px', marginBottom: '20px',}}>
-                        <h1>Recettes de Maju</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur qui quisquam numquam reprehenderit. Doloribus omnis veniam, nesciunt quae aliquam cum exercitationem distinctio, autem, amet molestias voluptas recusandae quod alias! Necessitatibus?</p>
-                    </div>
-                    <Button title="Decouvre maintenant" to="/home"/>
-                </div>
-            </section>
-
+        <>
             <section style={styles.antagonist}>
                 <div style={styles.recette}>
-                    <div style={{ backgroundColor: 'rgb(255, 255, 255)', borderRadius: 50, padding: '20px', marginBottom: '20px', boxShadow: '0 2px 4px rgba(0,0,0,0.5)', }}>
-                        <img src={mainImg} style={{ width:'100px', height:'100%', maxHeight:'150px'}} alt="MainImg" />
-                        <h1>Recettes de Maju</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur qui quisquam numquam reprehenderit. Doloribus omnis veniam, nesciunt quae aliquam cum exercitationem distinctio, autem, amet molestias voluptas recusandae quod alias! Necessitatibus?</p>
-                        <div>
-                            <p>Nombre de personnes {count}</p>
-                            <button onClick={handleClickBonus}> + </button>
-                            <button onClick={handleClickMinus}> - </button>
-                        </div> 
+                    <img src={mainImg} style={{ width:'150px', height:'100%', maxHeight:'500px', borderRadius:20}} alt="MainImg" />
+                    <h1>Poulet à la crème champignon ˙⋆✮</h1>
+                    <div>
+                        <p>Nombre de personnes {count}</p>
+                        <button onClick={handleClickBonus}> + </button>
+                        <button onClick={handleClickMinus}> - </button>
+                    </div> 
+                    <h2>Etape 1</h2>
+                    <p>
+                        Lancez la cuisson du rix (en fonction du riz que vous utilisez, la cuisson peu varier, mais si vous le faites à l’eau, il vous suffit de d’abord le nettoyer, puis mesurer l’eau et la quantité de riz avec la méthode de la phalange, puis de lancer la cuisson a feu moyen pendant 10 à 12 minutes.)
+                        Pendant ce temps, nettoyez les champignons, puis eplucher / couper les champignons et le poulet. 
+                    </p>
+                    <h2>Etape 2</h2>
+                    Mettre de la matière grasse dans deux poeles, puis cuire séparément le poulet et les champignons. 
+                    <h2>Etape 3</h2>
+                    <p>
+                        Rassembler dans la même poele et y verser la crème. Assaisonnez avec sel, poive etc. 
+                    </p>
+                    <h2>Etape 4</h2>
+                    <p>
+                        Laisser cuire encore jusqu’à ce que la crème soit colorée.
+                    </p>
+                    <h2>Etape 1</h2>
+                    <p>Servez et dégustez !</p>
                         
-                    </div>
-                    
                 </div>
             </section>
 

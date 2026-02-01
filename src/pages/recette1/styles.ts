@@ -1,18 +1,9 @@
 import type { CSSProperties } from "react";
-import homeBanner from '../../assets/nappe-home.jpg';
-
 
 export const styles = {
     cardContainer: {
         backgroundColor: '#fff',
         borderRadius: 8
-    },
-
-    hero: {
-        display        : 'flex',
-        height         : '100vh',
-        backgroundSize : 'cover',
-        backgroundImage: `url(${homeBanner})`,
     },
 
     antagonist: {
@@ -35,10 +26,14 @@ export const styles = {
         display : 'flex',
         flexDirection : 'column',
         margin : '0 auto',
-        justifyContent : 'left',
+        justifyContent : 'center',
         alignItems : 'left',
         textAlign : 'left',
         color : 'black',
+        backgroundColor: 'rgb(255, 255, 255)', 
+        borderRadius: 25, padding: '20px', 
+        marginBottom: '20px', 
+        boxShadow: '0 2px 4px rgba(0,0,0,0.5)', 
     } as CSSProperties,
 
 };
