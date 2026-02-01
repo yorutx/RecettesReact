@@ -21,11 +21,22 @@ function Recette1() {
                 <div style={styles.recette}>
                     <img src={mainImg} style={{ width:'150px', height:'100%', maxHeight:'500px', borderRadius:20}} alt="MainImg" />
                     <h1>Poulet à la crème champignon ˙⋆✮</h1>
-                    <div>
-                        <p>Nombre de personnes {count}</p>
-                        <button onClick={handleClickBonus}> + </button>
-                        <button onClick={handleClickMinus}> - </button>
-                    </div> 
+                    
+                    <div style={styles.ingredients}>
+                        <div>
+                            <p>Nombre de personnes {count}</p>
+                            <button onClick={handleClickBonus}> + </button>
+                            <button onClick={handleClickMinus}> - </button>
+                        </div> 
+                        <p>
+                            Poulet aux champignons
+                            200g de Poulet
+                            200g de champignons
+                            150ml de crème
+                            de la matière grasse
+                            150g de rix par personne
+                        </p>
+                    </div>
                     <h2>Etape 1</h2>
                     <p>
                         Lancez la cuisson du rix (en fonction du riz que vous utilisez, la cuisson peu varier, mais si vous le faites à l’eau, il vous suffit de d’abord le nettoyer, puis mesurer l’eau et la quantité de riz avec la méthode de la phalange, puis de lancer la cuisson a feu moyen pendant 10 à 12 minutes.)
