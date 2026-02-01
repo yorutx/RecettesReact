@@ -1,8 +1,10 @@
+import { styles } from "./styles";
+
 function Footer() {
     return (
-        <>
-            <p>Footer Component</p>
-        </>
+        <div style={styles.container}>
+            <p style={styles.siteTitle}>Footer Component</p>
+        </div>
     );
 
 }

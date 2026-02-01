@@ -12,7 +12,7 @@ export const styles = {
         display        : 'flex',
         height         : '100vh',
         backgroundSize : 'cover',
-        backgroundImage: `url(${homeBanner})`,
+        backgroundColor: '#fff',
     },
 
     mainPage: {
