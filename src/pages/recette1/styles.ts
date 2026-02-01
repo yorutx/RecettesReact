@@ -23,29 +23,51 @@ export const styles = {
     } as CSSProperties,
 
     recette: {
-        display : 'flex',
-        flexDirection : 'column',
-        margin : '0 auto',
-        justifyContent : 'center',
-        alignItems : 'left',
-        textAlign : 'left',
+        margin : '20px auto',
+        marginTop: '20px',
+        marginBottom: '20px',
+
+        display        : 'flex',
+        flexDirection  : 'column',
+
         color : 'black',
         backgroundColor: 'rgb(255, 255, 255)', 
+
         borderRadius: 25, padding: '20px', 
-        marginBottom: '20px', 
-        boxShadow: '0 2px 4px rgba(0,0,0,0.5)', 
+        boxShadow: '0 2px 3px rgba(0,0,0,0.5)', 
+
+        minHeight      : '100vh',
+        width: '50%',
+        minWidth: '320px',
+        maxWidth: '900px',
     } as CSSProperties,
 
     ingredients: {
-        margin : '0 auto',
-        justifyContent : 'left',
-        alignItems : 'left',
-        textAlign : 'left',
-        color : 'black',
-        backgroundColor: 'rgb(255, 255, 255)', 
-        borderRadius: 25, padding: '20px', 
-        marginBottom: '20px', 
-        boxShadow: '0 2px 4px rgba(0,0,0,0.5)', 
+        display: 'flex',
+        flexDirection: 'column',
 
+        width: '260px',
+        flexShrink: 0, 
+
+        backgroundColor: '#fff',
+        color: 'black',
+
+        borderRadius: 20,
+        padding: '20px',
+
+        boxShadow: '0 2px 8px rgba(0,0,0,0.15)',
     } as CSSProperties,
-};
+
+    steps:{
+        flex: 1,
+        textAlign: 'left',
+    } as CSSProperties,
+
+    contenu:{
+        display: 'flex',
+        flexDirection: 'row',
+        alignItems: 'flex-start', 
+        gap: '32px',
+    } as CSSProperties,
+
+}
